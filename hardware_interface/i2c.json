@@ -1,0 +1,11 @@
+{signal: [
+  {name:'SCL',wave:'x10101010101010101010|.10'},
+  {name:'SDA',wave:'x.101....0.......1...0...1..........d...x..|.0.1..',period:0.5},
+  {name:'TYP',wave:'x3x=x=x=x=x=x=x=x=x4x|x5x',data:['START','1','0','0','1','0','1','1','1','ACK','END']},
+],
+  head:{
+  text:'I2C sequence diagram ',
+  tick:-1,
+  },
+   config:{hscale:1}
+   }
